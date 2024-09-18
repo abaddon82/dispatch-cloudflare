@@ -1,0 +1,20 @@
+{
+    "config": {
+        "apitoken": "CLOUDFLARE_API_TOKEN",
+        "apiurl": "https://api.cloudflare.com/client/v4/zones",
+        "accountid": "CLOUDFLARE_ACCOUNT_ID"
+    },
+    "domains": [
+        {
+            "dnsname": "vpn.frustrasjon.net",
+            "zoneid": "CLOUDFLARE_ZONE_ID",
+            "interface": "INTERFACE_NAME"
+        },
+        {
+            "dnsname": "koder.johannessen.email",
+            "zoneid": "CLOUDFLARE_ZONE_ID",
+            "interface": "INTERFACE_NAME"
+        }
+    ]
+}
+
